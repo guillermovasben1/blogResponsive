@@ -271,9 +271,8 @@ nav {
   }
   .articles-section {
     display: flex;
-    flex-direction: wrap;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
 
   .principal-articles-tittle {
@@ -285,9 +284,8 @@ nav {
   }
   .article {
     align-self: center;
-    width: 40%;
-
-    margin: 1% 4% 2% 4%;
+    max-width: 45%;
+    margin: 1% 0% 2% 0%;
   }
 
   .article-tittle {
